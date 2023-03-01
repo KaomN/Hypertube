@@ -25,12 +25,12 @@ const SetPasswordForm: React.FC<{ setIsPasswordSet: Dispatch<SetStateAction<bool
 	const [{ loggedUser }] = useStateValue();
 	const { reset, ...password } = useFieldWithReset(
 		'text',
-		<Text tid="textFieldCurrentPassword" />,
+		<Text tid="textFieldNewPassword" />,
 		validatePassword
 	);
 	const { reset: pwdReset, ...confirmPassword } = useFieldWithReset(
 		'text',
-		<Text tid="textFieldNewPassword" />,
+		<Text tid="textFieldConfirmPassword" />,
 		validatePassword
 	);
 	const [open, setOpen] = useState(!isPasswordSet);
