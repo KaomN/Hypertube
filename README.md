@@ -1,5 +1,5 @@
 # Hypertube
-Streaming Web application done with [Alexei](https://github.com/alex2011576) and [Ilona](https://github.com/fglsn) that allows the user to search, watch, comment videos. The player will be directly integrated to the site, and the videos will be downloaded through the BitTorrent protocol. 
+Streaming Web application done with [Aleksei](https://github.com/alex2011576) and [Ilona](https://github.com/fglsn) that allows the user to search, watch, comment videos. The player will be directly integrated to the site, and the videos will be downloaded through the BitTorrent protocol. 
 
 ## Stack
 ```console
